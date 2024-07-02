@@ -1,4 +1,4 @@
-Socratic Questioning: Learn to Self-guide Multimodal Reasoning in the Wild
+# Socratic Questioning: Learn to Self-guide Multimodal Reasoning in the Wild
 ---
 
 This is the official completion of the paper: "Socratic Questioning: Learn to Self-guide Multimodal Reasoning in the Wild." The code will be coming soon.
@@ -6,7 +6,7 @@ This is the official completion of the paper: "Socratic Questioning: Learn to Se
 Our dataset is available at [CapQA](https://huggingface.co/datasets/wphu/CapQA).
 
 
-# How to use
+## How to use
 
 Before running the evaluation script in this repository, you need to copy it to the official [LLAVA](https://github.com/haotian-liu/LLaVA) repository to replace the original ones.
 
