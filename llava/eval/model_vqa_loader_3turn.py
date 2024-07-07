@@ -118,8 +118,9 @@ def eval_model(args):
         print(f"Current question: {cur_prompt}, \n\nOutput: {outputs}\n\n") if args.debug else None
 
         ans_id = shortuuid.uuid()
+        prop = cur_prompt.rsplit('[Question]',1)[-1][2:]
         ans_file.write(json.dumps({"question_id": idx,
-                                   "prompt": cur_prompt,
+                                   "prompt": prop,
                                    "text": outputs,
                                    "answer_id": ans_id,
                                    "model_id": model_name,
