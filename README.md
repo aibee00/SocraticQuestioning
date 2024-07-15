@@ -41,3 +41,18 @@ Evaluating 3-Turn Inference
 ```Shell
 CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/textvqa_3turn.sh
 ```
+### MM-Vet
+
+1. Extract [`mm-vet.zip`](https://github.com/yuweihao/MM-Vet/releases/download/v1/mm-vet.zip) to `./playground/data/eval/mmvet`.
+2. Single-GPU inference.
+
+Evaluating 1-Turn Inference
+```Shell
+CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/mmvet.sh
+```
+Evaluating 3-Turn Inference
+```Shell
+CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/mmvet_3turn.sh
+```
+
+3. Evaluate the predictions in `./playground/data/eval/mmvet/results` using the official jupyter notebook according to the instructions here [MM-Vet](https://github.com/yuweihao/MM-Vet).
