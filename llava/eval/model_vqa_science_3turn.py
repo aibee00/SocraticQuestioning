@@ -48,9 +48,10 @@ def eval_model(args):
         question = line['conversations'][0]
         qs = question['value'].replace('<image>', '').strip()
         cur_prompt = qs
+        has_image = 'image' in line
             
         # process of image
-        if 'image' in line:
+        if has_image:
             image_file = line["image"]
             image = Image.open(os.path.join(args.image_folder, image_file))
             image_tensor = image_processor.preprocess(image, return_tensors='pt')['pixel_values'][0]
@@ -98,6 +99,8 @@ def eval_model(args):
             outputs = outputs_reasoning + '\n The answer is ' + outputs
         
         ans_id = shortuuid.uuid()
+        if has_image:
+            cur_prompt = '<image>' + '\n' + cur_prompt
         ans_file.write(json.dumps({"question_id": idx,
                                    "prompt": cur_prompt,
                                    "text": outputs,
