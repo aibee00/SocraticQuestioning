@@ -15,6 +15,11 @@ Please note that you need to replace the original `llava/mm_utils` with the new 
 The evaluation procedure is very much like that of [LLaVA](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md). Please download [eval.zip](https://drive.google.com/file/d/1atZSBBrAX54yYpxtVVW33zFvcnaHeFPy/view?usp=sharing) and unzip it under `./playground/data/`. 
 
 
+## Weight
+
+[sq-llava-v1.5-7b-lora](https://huggingface.co/wphu/sq-llava-v1.5-7b-lora/tree/main)
+
+
 ## Finetune
 
 You may need to modify the `data_path`,`vision_tower`,`pretrain_mm_mlp_adapter`,`output_dir` with you own local path.
