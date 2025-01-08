@@ -1,7 +1,7 @@
 # Socratic Questioning: Learn to Self-guide Multimodal Reasoning in the Wild
 ---
 
-This is the official completion of the paper: "Socratic Questioning: Learn to Self-guide Multimodal Reasoning in the Wild." The code will be coming soon.
+This is the official completion of the paper: ["Socratic Questioning: Learn to Self-guide Multimodal Reasoning in the Wild."](https://arxiv.org/abs/2501.02964) The code will be coming soon.
 
 Our dataset is available at [CapQA](https://huggingface.co/datasets/wphu/CapQA).
 
