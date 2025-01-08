@@ -5,10 +5,11 @@ This is the official completion of the paper: ["Socratic Questioning: Learn to S
 
 Our dataset is available at [CapQA](https://huggingface.co/datasets/wphu/CapQA).
 
-| <a href="./images/comparision_questions_gen.pdf">
-| <img src="./images/comparision_questions_gen.png" alt="Comparison Questions" width="600">
-</a> |
-|:---:|
+<div style="text-align: center;">
+  <a href="./images/comparision_questions_gen.pdf">
+    <img src="./images/comparision_questions_gen.png" alt="Comparison Questions" width="700">
+  </a>
+</div>
 
 
 ## How to use
