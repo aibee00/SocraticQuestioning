@@ -5,6 +5,8 @@ This is the official completion of the paper: ["Socratic Questioning: Learn to S
 
 Our dataset is available at [CapQA](https://huggingface.co/datasets/wphu/CapQA).
 
+![](images/comparision_questions_gen.pdf)
+
 
 ## How to use
 
