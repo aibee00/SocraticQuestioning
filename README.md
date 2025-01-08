@@ -8,11 +8,21 @@ Our dataset is available at [CapQA](https://huggingface.co/datasets/wphu/CapQA).
 
 ## How to use
 
-Before running the evaluation script in this repository, you may need to copy it to the official [LLAVA](https://github.com/haotian-liu/LLaVA) repository to replace the original ones, since the code in this repo may be out of date, you can use the latest code from [LLAVA](https://github.com/haotian-liu/LLaVA).
+The training code in this repo may be out of date, you can use the latest code from [LLAVA](https://github.com/haotian-liu/LLaVA).
 
 Please note that you need to replace the original `llava/mm_utils` with the new `llava/mm_utils` from this repository, as there are several newly added functions implementing our "Socratic Questioning" methodology.
 
 The evaluation procedure is very much like that of [LLaVA](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md). Please download [eval.zip](https://drive.google.com/file/d/1atZSBBrAX54yYpxtVVW33zFvcnaHeFPy/view?usp=sharing) and unzip it under `./playground/data/`. 
+
+
+## Finetune
+
+You may need to modify the `data_path`,`vision_tower`,`pretrain_mm_mlp_adapter`,`output_dir` with you own local path.
+
+```
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash scripts/v1_5/finetune_lora_capQA.sh
+```
+
 
 ## ScienceQA
 
