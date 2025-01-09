@@ -23,7 +23,9 @@ The evaluation procedure is very much like that of [LLaVA](https://github.com/ha
 
 ## Weight
 
-[sq-llava-v1.5-7b-lora](https://huggingface.co/wphu/sq-llava-v1.5-7b-lora/tree/main)
+| --- | --- |
+| base model | [vicuna-7b-v1.5](https://huggingface.co/lmsys/vicuna-7b-v1.5) |
+| lora model | [sq-llava-v1.5-7b-lora](https://huggingface.co/wphu/sq-llava-v1.5-7b-lora/tree/main) |
 
 
 ## Finetune
