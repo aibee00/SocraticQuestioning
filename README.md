@@ -38,7 +38,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash scripts/v1_5/finetune_lora_capQA.sh
 ## Evaluation
 ### CapQA
 
-1. Under `./playground/data/eval/capqa`, download CapQA from [huggingface]([https://github.com/lupantech/ScienceQA](https://huggingface.co/datasets/wphu/CapQA/tree/main)).
+1. Under `./playground/data/eval/capqa`, download CapQA from [huggingface](https://huggingface.co/datasets/wphu/CapQA/tree/main).
 2. Single-GPU inference and evaluate.
 
 ```Shell
