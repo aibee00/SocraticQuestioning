@@ -78,3 +78,14 @@ CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/mmvet_3turn.sh
 ```
 
 3. Evaluate the predictions in `./playground/data/eval/mmvet/results` using the official jupyter notebook according to the instructions here [MM-Vet](https://github.com/yuweihao/MM-Vet).
+
+## Citation
+
+```bibtex
+@article{SocraticQuestioning2025,
+  title={Socratic Questioning: Learn to Self-guide Multimodal Reasoning in the Wild},
+  author={Wanpeng Hu, Haodi Liu, Lin Chen, Feng Zhou, Changming Xiao, Qi Yang, Changshui Zhang},
+  journal={arXiv preprint arXiv:2501.02964},
+  year={2025},
+  url={https://arxiv.org/abs/2501.02964}
+}
